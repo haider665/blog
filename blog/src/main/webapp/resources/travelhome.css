@@ -1,0 +1,159 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: OpenSans-Regular, sans-serif;
+}
+
+.heading{
+	font-size: 35px;
+	font-family: 'Text Me One', sans-serif;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.backgroundImage{
+	background-image: /*linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)),*/url("travel03.jpg");
+	opacity: 1;
+	height: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/*.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}*/
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	/*justify-content:right;
+	align-content: right;*/
+	position: absolute;
+    right: 0;
+	padding-top: 150px;
+	margin-right: 100px;
+}
+.loginbox{
+	align-content: right;
+	width: 300px;
+	background-color: rgb(255, 255, 255);
+	opacity: 0.8;
+	border-radius: 10px;
+	overflow: hidden;
+	padding-right: 55px;
+	padding-left: 55px;
+	padding-bottom: 30px;
+	padding-top: 40px;
+}
+.form{
+	width: 100%;
+}
+.logoforamj{
+	width: 80px;
+	display: flex;
+	margin:0 auto;
+
+}
+.loginform{
+    display: block;
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	color:rgb(38, 75, 115);
+	line-height: 1.2;
+	text-align:center;
+	padding-top: 0px;
+	padding-bottom: 33px;
+}
+.email{
+	
+	width: 100%;
+	background-color: white;
+	border: 2px solid rgb(38, 75, 115);
+	box-sizing: border-box;
+}
+input{
+	outline: none;
+	border: none;
+	overflow: visible;
+}
+.inputstyle{
+	height: 68px;
+	padding: 0 25px 0 25px;
+	display: block;
+	width: 100%;
+	background:transparent;
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	color: rgb(38, 75, 115);
+	line-height: 1.2; 
+	box-sizing: border-box;
+}
+.email.nxt{
+	border-top:none;
+}
+.button{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	width: 100%;
+	height: 60px;
+	background-color: rgb(38, 75, 115);
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+	color: white;
+	line-height: 1.2;
+	text-transform: uppercase;
+	transition: all 0.4s;
+}
+.btn a{
+	text-decoration: none;
+	color: #f2f2f2; 
+}
+button{
+	outline: none;
+	border: none;
+	background: transparent;
+}
+.text-center{
+	padding-bottom: 4px;
+	padding-top: 45px;
+	text-align: center;
+}
+.text-centersignup{
+	text-align: center;
+}
+.text1{
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	line-height: 1.4;
+	color:#999999;
+}
+.text2{
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	line-height: 1.4;
+	color:#4272d7;
+	text-decoration: none;
+}
